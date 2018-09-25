@@ -31,22 +31,40 @@ namespace CardProject
 
             //each dot on constellation
             g.FillEllipse(drawBrush, 346, 126, 10, 10);
+            SoundPlayer player = new SoundPlayer(Properties.Resources._159376__greenhourglass__boing1);
+            player.Play();
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 319, 113, 10, 10);
+            player.Play();
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 279, 167, 10, 10);
+            
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 290, 206, 10, 10);// connector
-            Thread.Sleep(500);
+            
+            Thread.Sleep(500)
+                ;
             g.FillEllipse(drawBrush, 332, 221, 10, 10);
+            
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 351, 267, 10, 10);
+            
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 187, 305, 10, 10);
+           
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 109, 346, 10, 10);
+           
             Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 166, 255, 10, 10);
+           
             Thread.Sleep(500);
 
             //connecting lines
