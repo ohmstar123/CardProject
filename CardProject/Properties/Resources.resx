@@ -126,7 +126,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAANIVAADSFQAAAAEAAQoPAgAAANIVAAACUklGRsoVAABXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAA0hUAANIVAADSFQAAAAEAAQoPAgAAANIVAAACUklGRsoVAABXQVZFZm10IBAAAAAB
         AAEARKwAAIhYAQACABAAZGF0YaYVAAABAMJl6mXhZdllrmWPZcJlOWZ8ZrRlY2RHZH9m5WhTZuNUji3H
         /fzZ8c67znLRh9LYzmTFpLfAqjijUKGVoWeiuqKZoiaiYaGvn2OdcJuzmrGazpr0mu+a6prgmu6a8pr+
         mv2aAZsEmwebDJsSmxObGpsbmyKbI5ssmyqbNJsymzubOZtDm0KbSptMm0+bVZtWm12bXZtkm2WbbJtt
@@ -221,5 +221,11 @@
         1vvW/Nb51v7W+tYA1/nW/db81vvW/tb81vzW/9b71v/W/Nb/1v7W/tb+1v7WANf+1v/W/9YB1/3WA9f8
         1gLX/9b/1gPX/db+1v7WEdcf1wvXy9ah1vXWsdfi183WP9Uw1oreJvO/DZ0iCw==
 </value>
+  </data>
+  <data name="tada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\376318__jimhancock__tada (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_253956__mafon2__bubble_pop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\253956__mafon2__bubble-pop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

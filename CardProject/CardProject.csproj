@@ -85,5 +85,14 @@
   <ItemGroup>
     <None Include="Resources\159376__greenhourglass__boing1.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\253956__mafon2__bubble-pop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\376318__jimhancock__tada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\376318__jimhancock__tada %281%29.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

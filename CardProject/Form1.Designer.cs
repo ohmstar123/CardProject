@@ -37,7 +37,7 @@
             this.Title.AutoSize = true;
             this.Title.BackColor = System.Drawing.Color.Ivory;
             this.Title.Font = new System.Drawing.Font("Prestige Elite Std", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Title.Location = new System.Drawing.Point(726, 284);
+            this.Title.Location = new System.Drawing.Point(726, 292);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(62, 31);
             this.Title.TabIndex = 2;
@@ -50,11 +50,12 @@
             this.Image_button.CausesValidation = false;
             this.Image_button.FlatAppearance.BorderSize = 0;
             this.Image_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Image_button.Location = new System.Drawing.Point(-39, -2);
+            this.Image_button.Location = new System.Drawing.Point(12, -1);
             this.Image_button.Name = "Image_button";
-            this.Image_button.Size = new System.Drawing.Size(759, 452);
+            this.Image_button.Size = new System.Drawing.Size(699, 452);
             this.Image_button.TabIndex = 3;
             this.Image_button.UseVisualStyleBackColor = true;
+            this.Image_button.Click += new System.EventHandler(this.Image_button_Click);
             // 
             // Form1
             // 

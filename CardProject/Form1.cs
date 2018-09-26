@@ -40,52 +40,72 @@ namespace CardProject
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 279, 167, 10, 10);
-            
+            player.Play();
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 290, 206, 10, 10);// connector
-            
-            Thread.Sleep(500)
-                ;
+            player.Play();
+            Thread.Sleep(500);
+
             g.FillEllipse(drawBrush, 332, 221, 10, 10);
-            
+            player.Play();
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 351, 267, 10, 10);
-            
+            player.Play();
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 187, 305, 10, 10);
-           
+            player.Play();
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 109, 346, 10, 10);
-           
+            player.Play();
             Thread.Sleep(500);
 
             g.FillEllipse(drawBrush, 166, 255, 10, 10);
-           
+            player.Play();
             Thread.Sleep(500);
+
 
             //connecting lines
             g.DrawLine(drawPen, 348, 128, 321, 115);
+            SoundPlayer popper = new SoundPlayer(Properties.Resources._253956__mafon2__bubble_pop);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 323, 115, 281, 171);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 281, 171, 292, 208);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 292, 208, 334, 223);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 335, 223, 353, 269);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 355, 271, 189, 309);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 189, 309, 111, 351);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 111, 351, 170, 257);
+            popper.Play();
             Thread.Sleep(500);
+
             g.DrawLine(drawPen, 170, 257, 292, 208);
+            popper.Play();
             Thread.Sleep(500);
+
 
             //Paragraph
             SolidBrush parabrush = new SolidBrush(Color.Red);
@@ -99,6 +119,8 @@ namespace CardProject
                 " Nemean Lion killed by the mythical \n" +
                 " Greek hero Heracles as one of his\n" +
                 " twelve labors", parafont, parabrush, 370, 100);
+            SoundPlayer suprise = new SoundPlayer(Properties.Resources.tada);
+            suprise.Play();
             Thread.Sleep(1000);
 
             //color change 1
@@ -314,6 +336,11 @@ namespace CardProject
                 " Nemean Lion killed by the mythical \n" +
                 " Greek hero Heracles as one of his\n" +
                 " twelve labors", parafont, parabrush, 370, 100);
+        }
+
+        private void Image_button_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
