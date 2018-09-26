@@ -70,7 +70,7 @@ namespace CardProject
 
             //connecting lines
             g.DrawLine(drawPen, 348, 128, 321, 115);
-            SoundPlayer popper = new SoundPlayer(Properties.Resources._253956__mafon2__bubble_pop);
+            SoundPlayer popper = new SoundPlayer(Properties.Resources._253956__mafon2__bubble_pop);  
             popper.Play();
             Thread.Sleep(500);
 
